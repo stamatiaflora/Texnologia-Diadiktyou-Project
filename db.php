@@ -6,11 +6,9 @@ $username = "root";
 $password = "";
 $dbname = "warehouse_store";
 
-// Δημιουργία σύνδεσης 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);  // Δημιουργία σύνδεσης  
 
-// Έλεγχος επιτυχούς σύνδεσης 
-if ($conn->connect_error) {
+if ($conn->connect_error) {  // Έλεγχος επιτυχούς σύνδεσης 
     die("Η σύνδεση απέτυχε: " . $conn->connect_error);
 }
 ?>
