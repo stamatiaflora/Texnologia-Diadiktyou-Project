@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 
-$sql = "SELECT * FROM products";
+$sql = "SELECT * FROM products";  // Επιλογή όλων των προϊόντων από τον πίνακα products
 
 $result = $conn->query($sql);
 ?>
@@ -32,7 +32,7 @@ $result = $conn->query($sql);
 
 if($result->num_rows > 0) {
 
-    while($row = $result->fetch_assoc()) {
+    while($row = $result->fetch_assoc()) {   // Εμφάνιση κάθε προϊόντος σε γραμμή του πίνακα
 
         echo "<tr>
         
