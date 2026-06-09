@@ -45,6 +45,20 @@ db.php
 
 Χρήστης → Browser → Apache Server → PHP → MySQL Database
 
+# 2.1 Πρόσβαση στις Σελίδες της Εφαρμογής
+
+Κατά την εκτέλεση της εφαρμογής μέσω του XAMPP και του Apache Server, οι σελίδες της εφαρμογής είναι προσβάσιμες μέσω των παρακάτω διευθύνσεων:
+
+* Αρχική Σελίδα
+  http://localhost/warehouse_store/index.php
+
+* Προσθήκη Προϊόντος
+  http://localhost/warehouse_store/add_product.php
+
+* Προβολή Προϊόντων
+  http://localhost/warehouse_store/view_products.php
+
+
 # 3. Δομή της Βάσης Δεδομένων
 
 Για την αποθήκευση των δεδομένων δημιουργήθηκε η βάση δεδομένων:
